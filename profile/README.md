@@ -9,5 +9,6 @@
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 # Link to Gateways on Azure 
-![Admin-gateway](admin-gateway-fqevcraygyfvafe2.northeurope-01.azurewebsites.net)
-![Finance-gateway](finance-gateway-b3grdpa6e6bterbg.northeurope-01.azurewebsites.net) 
+[Admin-gateway] (admin-gateway-fqevcraygyfvafe2.northeurope-01.azurewebsites.net)
+[Finance-gateway] (finance-gateway-b3grdpa6e6bterbg.northeurope-01.azurewebsites.net) 
+[Sales-gateway] (sales-gateway-adcsa0dwahcxhkep.northeurope-01.azurewebsites.net)
