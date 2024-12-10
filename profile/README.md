@@ -8,7 +8,15 @@
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
-# Link to Gateways on Azure 
-[Admin-gateway](https://admin-gateway-fqevcraygyfvafe2.northeurope-01.azurewebsites.net/)
-[Finance-gateway](https://finance-gateway-b3grdpa6e6bterbg.northeurope-01.azurewebsites.net/) 
-[Sales-gateway](https://sales-gateway-adcsa0dwahcxhkep.northeurope-01.azurewebsites.net/)
+## Formål
+
+## Opfyldelse af krav
+I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways:
+**Data registrering** : [sales-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/sales-gateway)
+
+## Oversigt over Repositories
+
+## Architecture Diagarm
+
+## CI/CD pipeline
+
