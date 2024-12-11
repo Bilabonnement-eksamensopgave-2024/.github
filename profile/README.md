@@ -29,7 +29,7 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
 1. # Brug Postman eller lignende
    `method` POST
    
-   `request` /"din_afdelings_gateway_url"/login
+   `request` /din_afdelings_gateway_url/login
    
  ```json
 {
@@ -37,7 +37,8 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
     "password": "paswoard123"
 }
 ```
-3. 
+2. # Du kan nu tilgå din afdelings endpoints
+    
 
 ## Domain-model
 
