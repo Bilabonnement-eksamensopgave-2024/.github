@@ -31,8 +31,7 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
    
    `request` /"din_afdelings_gateway_url"/login
    
-  ``` 
-   {
+  ```{
         "email": "user@example.com",
         "password": "password123"
     }
