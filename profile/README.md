@@ -24,9 +24,17 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 ## User-guide for medarbejdere
 
-1. ## Brug Postman eller lignende
+Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i systemet til den rigtige afdeleing.
+
+1. # Brug Postman eller lignende
    `method` POST
-   `request` 
+   `request` /"din_afdelings_gateway_url"/login
+   ´´´
+   {
+        "email": "user@example.com",
+        "password": "password123"
+    }
+    ```
 3. 
 
 ## Domain-model
