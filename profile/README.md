@@ -21,7 +21,74 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 ## Domain-model
 
-![Billede1](Billede1.png)
+classDiagram
+    class subscriptions {
+        Int subscription_id
+        Int car_id
+        Date subscription_start_date
+        Int subscription_end_date
+        Int subscription_duration_months
+        Int monthly_subscription_price
+        Int contracted_km
+        Int monthly_subscription_price
+        Boolean has_delivery_insurance
+        get_subscription() List
+        get_subscription_by_id(Int) Dict
+        get_subscription_by_userid(Int) List
+        get_subscription_by_car_id(Int) List
+        get_car_by_subscription_id(subscription_id: Int) Dict
+        update_subscription(updated_subscription: Dict) String
+        delete_subscription(subscription_id: Int) String
+        add_subscription(new_subscription: Dict) String
+    }
+
+    class cars {
+        Int car_id
+        String car_brand
+        String car_model
+        String fuel_type
+        Date registration_date
+        Int purchase_price
+        Int km_driven_since_last_end_subscription
+        Boolean is_available
+        get_cars() List
+        get_available_cars() List
+        get_car_by_id(car_id: Int) Dict
+        update_car(updated_car: Dict) String
+        delete_car(car_id: Int) String
+        add_car(new_car: Dict) String
+    }
+
+    class damage_reports {
+        Int damage_report_id
+        Int subscription_id
+        Int car_id
+        Date report_date
+        String description
+        Int damage_type_id
+        get_damage_reports() List
+        get_damage_reports_by_id(id: Int) Dict
+        get_damage_reports_by_subscription_id(id: Int) List
+        get_total_price_of_subscription_damages(subscription_id: Int) Int
+        get_damage_reports_by_car_id(id: Int) List
+        update_damage_report(updated_damage_report: Dict) String
+        delete_damage_report(id: Int) String
+        add_damage_report(new_damage_report: Dict) String
+    }
+
+    class damage_types {
+        Int damage_type_id
+        String damage_type
+        String severity
+        get_damage_types() List
+        get_damage_type_by_id(id: Int) Dict
+        update_damage_type(updated_damage_type: Dict) String
+        delete_damage_type(id: Int) String
+    }
+
+    subscriptions "1" -- "*" cars
+    damage_reports "*" -- "1" damage_types
+    subscriptions "1" -- "*" damage_reports
 
 
 ## Oversigt over Repositories
