@@ -32,11 +32,11 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
    `request` /"din_afdelings_gateway_url"/login
    
  ```json
-    {
-        "email": "din_email@mail.com"
-        "password": "paswoard123"
-    }
-    ```
+{
+    "email": "din_email@mail.com",
+    "password": "paswoard123"
+}
+```
 3. 
 
 ## Domain-model
