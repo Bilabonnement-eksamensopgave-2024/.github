@@ -20,6 +20,7 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 **forretningsudviklere** : [finance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/finance-gateway)
 
 ## Domain-model
+
 ```mermaid
 classDiagram
     class subscriptions {
@@ -89,7 +90,8 @@ classDiagram
     subscriptions "1" -- "*" cars
     damage_reports "*" -- "1" damage_types
     subscriptions "1" -- "*" damage_reports
-'''
+    cars "1" -- "*" damage_reports
+```
 
 ## Oversigt over Repositories
 
