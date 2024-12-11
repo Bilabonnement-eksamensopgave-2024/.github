@@ -22,6 +22,12 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 ## Oversigt over Repositories
 
+| Github repo | Azure deployed |
+|------------|----------------|
+| [user-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/user-microservice) | [Azure](https://user-microservice-d6f9fsdkdzh7hndv.northeurope-01.azurewebsites.net/) |
+| [another-repo](link2) | [another-name](azure-link2) |
+| [third-repo](link3) | [third-name](azure-link3) |
+
 ## Arkitektur Diagram
 
 ## CI/CD pipeline
