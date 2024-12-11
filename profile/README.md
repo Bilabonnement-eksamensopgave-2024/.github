@@ -31,7 +31,7 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 | [admin-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/admin-gateway) | [Azure-Health](https://admin-gateway-fqevcraygyfvafe2.northeurope-01.azurewebsites.net/health) |
 | [finance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/finance-gateway) | [Azure](https://finance-gateway-b3grdpa6e6bterbg.northeurope-01.azurewebsites.net/) |
 | [sales-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/sales-gateway) | [Azure](https://sales-gateway-adcsa0dwahcxhkep.northeurope-01.azurewebsites.net/) |
-| [maintenance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/maintenance-gateway) | [comming soon](https://finance-gateway-b3grdpa6e6bterbg.northeurope-01.azurewebsites.net/) |
+| [maintenance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/maintenance-gateway) | [comming soon](TBA.com) |
 
 
 ---
