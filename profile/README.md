@@ -22,6 +22,13 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 **forretningsudviklere** : [finance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/finance-gateway)
 
+## User-guide for medarbejdere
+
+1. ## Brug Postman eller lignende
+   `method` POST
+   `request` 
+3. 
+
 ## Domain-model
 
 ```mermaid
