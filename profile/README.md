@@ -10,6 +10,9 @@
 
 ## Formål
 
+Vi ønsker at udarbejde et minimal viable product som kan akkommodere den resterende rejse for bilen. Fra afhentningssted, til 
+tilbagelevering og videre til skaderegistrering.
+
 ## Opfyldelse af krav
 I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways:
 
