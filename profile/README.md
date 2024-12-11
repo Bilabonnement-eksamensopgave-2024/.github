@@ -26,7 +26,7 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i systemet til den rigtige afdeleing.
 
-1. # Brug Postman eller lignende
+1. ### Brug Postman eller lignende
    `method` POST
    
    `request` /din_afdelings_gateway_url/login
@@ -37,7 +37,7 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
     "password": "paswoard123"
 }
 ```
-2. # Du kan nu tilgå din afdelings endpoints
+2. ### Du kan nu tilgå din afdelings endpoints
     
 
 ## Domain-model
