@@ -27,7 +27,8 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 | [user-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/user-microservice) | [Azure](https://user-microservice-d6f9fsdkdzh7hndv.northeurope-01.azurewebsites.net/) |
 | [abonnement-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/abonnement-microservice) | [Azure](https://abonnement-microservice-dkeda4efcje4aega.northeurope-01.azurewebsites.net/) |
 | [bil-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/bil-microservice) | [Azure](https://car-microservice-ayhzdgdrfxgrdgby.northeurope-01.azurewebsites.net/) |
-| [bil-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/bil-microservice) | [Azure](https://car-microservice-ayhzdgdrfxgrdgby.northeurope-01.azurewebsites.net/) |
+| [skade-microservice](https://github.com/Bilabonnement-eksamensopgave-2024/skade-microservice) | [Azure](https://skade-microservice-cufpgqgfcufqa8er.northeurope-01.azurewebsites.net/) |
+| [admin-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/admin-gateway]) | [Azure](admin-gateway-fqevcraygyfvafe2.northeurope-01.azurewebsites.net/) |
 
 ## Arkitektur Diagram
 
