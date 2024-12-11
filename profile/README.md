@@ -109,7 +109,13 @@ classDiagram
 | [sales-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/sales-gateway) | [Azure](https://sales-gateway-adcsa0dwahcxhkep.northeurope-01.azurewebsites.net/) |
 | [maintenance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/maintenance-gateway) | [comming soon](TBA.com) |
 
+### Roller
 
+Da vi arbejder med JWT authentication har vi valgt at en user skal have en rolle før de kan tilgå en gateway. De roller og deres gateways er således:
+
+| Gateway | Role Required |
+|------------|----------------|
+| admin-gateway | ´´´admin``` |
 ---
 ## Arkitektur Diagram
 
