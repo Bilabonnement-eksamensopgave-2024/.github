@@ -115,7 +115,7 @@ Da vi arbejder med JWT authentication har vi valgt at en user skal have en rolle
 
 | Gateway | Role Required |
 |------------|----------------|
-| admin-gateway | ´´´admin``` |
+| admin-gateway | `admin´ |
 ---
 ## Arkitektur Diagram
 
