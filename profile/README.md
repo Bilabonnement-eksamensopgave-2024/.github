@@ -89,7 +89,7 @@ classDiagram
     subscriptions "1" -- "*" cars
     damage_reports "*" -- "1" damage_types
     subscriptions "1" -- "*" damage_reports
-
+'''
 
 ## Oversigt over Repositories
 
