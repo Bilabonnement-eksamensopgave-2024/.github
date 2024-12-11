@@ -133,5 +133,7 @@ graph TD
     UserMicroservice --> UserDB["User Database"]
 ```
 
+Diagrammet viser, hvordan systemets mikroservice arkitektur er struktureret med de forskellige gateways og mikroservices, samt hvordan de relaterer til hinanden og databaserne.
+
 ## CI/CD pipeline
 
