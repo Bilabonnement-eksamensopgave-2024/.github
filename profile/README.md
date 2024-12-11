@@ -137,3 +137,13 @@ Diagrammet viser, hvordan systemets mikroservice arkitektur er struktureret med 
 
 ## CI/CD pipeline
 
+```mermaid
+graph LR
+    A["Develop Flask API in VS Code"] --> B["Create Dockerfile"]
+    B --> C["Push to GitHub"]
+    C --> D["DevOps"]
+    D --> D1["Build Docker Image"]
+    D --> D2["Push to DockerHub"]
+    D2 --> E["Azure Web App pulls image from DockerHub"]
+```
+
