@@ -160,8 +160,6 @@ graph LR
     D2 --> E["Azure Web App pulls image from DockerHub"]
 ```
 
-# Forklaring af CI/CD-pipeline
-
 Diagrammet viser en CI/CD-pipeline til deployment af en Flask API-applikation. Her er en kort forklaring:
 
 1. **Udvikling**  
