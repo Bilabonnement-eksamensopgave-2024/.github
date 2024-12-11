@@ -160,3 +160,25 @@ graph LR
     D2 --> E["Azure Web App pulls image from DockerHub"]
 ```
 
+# Forklaring af CI/CD-pipeline
+
+Diagrammet viser en CI/CD-pipeline til deployment af en Flask API-applikation. Her er en kort forklaring:
+
+1. **Udvikling**  
+   Flask API udvikles i Visual Studio Code (eller et andet IDE).
+
+2. **Dockerfile oprettes**  
+   En Dockerfile skrives for at containerisere applikationen.
+
+3. **Push til GitHub**  
+   Koden pushes til et GitHub-repository for versionskontrol og samarbejde.
+
+4. **DevOps-processen**  
+   - **Build Docker Image**: En Docker-container bygges automatisk ud fra koden og Dockerfilen.
+   - **Push to DockerHub**: Docker-image pushes til DockerHub, som fungerer som en container registry.
+
+5. **Deployment**  
+   Azure Web App trækker Docker-imaget fra DockerHub og deployer applikationen, så den er tilgængelig for brugere.
+
+Denne pipeline automatiserer processen fra udvikling til deployment, hvilket gør det nemt og hurtigt at rulle opdateringer ud.
+
