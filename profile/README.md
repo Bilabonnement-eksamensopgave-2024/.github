@@ -15,6 +15,11 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 **Data registrering** : [sales-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/sales-gateway)
 
+**Skade og udbedring** : [maintenance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/maintenance-gateway)
+
+**forretningsudviklere** : [finance-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/finance-gateway)
+
+
 ## Oversigt over Repositories
 
 ## Arkitektur Diagram
