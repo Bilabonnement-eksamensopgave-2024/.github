@@ -12,11 +12,12 @@
 
 ## Opfyldelse af krav
 I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways:
+
 **Data registrering** : [sales-gateway](https://github.com/Bilabonnement-eksamensopgave-2024/sales-gateway)
 
 ## Oversigt over Repositories
 
-## Architecture Diagarm
+## Arkitektur Diagram
 
 ## CI/CD pipeline
 
