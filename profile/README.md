@@ -21,7 +21,7 @@ I opgaven blev der stillet nogle krav som vi har løst gennem følgende gateways
 
 ## Domain-model
 
-![Description](billede1.png)
+![Billede1](Billede1.png)
 
 
 ## Oversigt over Repositories
