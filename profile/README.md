@@ -110,5 +110,28 @@ classDiagram
 ---
 ## Arkitektur Diagram
 
+```mermaid
+graph TD
+    Browser["Browser"] --> FinanceGateway["Finance Gateway"]
+    Browser --> MaintenanceGateway["Vedligeholdelse Gateway"]
+    Browser --> SalesGateway["Sales Gateway"]
+    Browser --> AdminGateway["Admin Gateway"]
+
+    FinanceGateway --> SkadeMicroservice["Skade Microservice"]
+    FinanceGateway --> BilMicroservice["Bil Microservice"]
+
+    MaintenanceGateway --> BilMicroservice
+    MaintenanceGateway --> AbonnementMicroservice["Abonnement Microservice"]
+
+    SalesGateway --> AbonnementMicroservice
+
+    AdminGateway --> UserMicroservice["User Microservice"]
+
+    SkadeMicroservice --> SkadeDB["Skade Database"]
+    BilMicroservice --> BilDB["Bil Database"]
+    AbonnementMicroservice --> AbonnementDB["Abonnement Database"]
+    UserMicroservice --> UserDB["User Database"]
+```
+
 ## CI/CD pipeline
 
