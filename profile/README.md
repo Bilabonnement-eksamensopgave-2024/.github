@@ -142,28 +142,6 @@ Da vi arbejder med JWT authentication har vi valgt at en user skal have en rolle
 ## Arkitektur Diagram
 ![arkitektur diagram](arkitektur_diagram.png)
 
-```mermaid
-graph TD
-    Browser["Browser"] --> FinanceGateway["Finance Gateway"]
-    Browser --> MaintenanceGateway["Vedligeholdelse Gateway"]
-    Browser --> SalesGateway["Sales Gateway"]
-    Browser --> AdminGateway["Admin Gateway"]
-
-    FinanceGateway --> SkadeMicroservice["Skade Microservice"]
-    FinanceGateway --> BilMicroservice["Bil Microservice"]
-
-    MaintenanceGateway --> BilMicroservice
-    MaintenanceGateway --> AbonnementMicroservice["Abonnement Microservice"]
-
-    SalesGateway --> AbonnementMicroservice
-
-    AdminGateway --> UserMicroservice["User Microservice"]
-
-    SkadeMicroservice --> SkadeDB["Skade Database"]
-    BilMicroservice --> BilDB["Bil Database"]
-    AbonnementMicroservice --> AbonnementDB["Abonnement Database"]
-    UserMicroservice --> UserDB["User Database"]
-```
 
 Diagrammet viser, hvordan systemets mikroservice arkitektur er struktureret med de forskellige gateways og mikroservices, samt hvordan de relaterer til hinanden og databaserne.
 
