@@ -140,6 +140,7 @@ Da vi arbejder med JWT authentication har vi valgt at en user skal have en rolle
 
 ---
 ## Arkitektur Diagram
+![arkitektur diagram](arkitektur_diagram.png)
 
 ```mermaid
 graph TD
