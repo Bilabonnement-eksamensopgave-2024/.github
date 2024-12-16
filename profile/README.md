@@ -39,6 +39,11 @@ Bekræft hos din arbejdsgiver at du er blevet oprettet i som medarbejder i syste
 ```
 2. ### Du kan nu tilgå din afdelings endpoints
     
+## Tableau
+
+Hent vores Tableau Dashboards fra [bilabonnement.dk](https://github.com/Bilabonnement-eksamensopgave-2024/Tableau/blob/main/Bilabonnement.dk.twbx)
+
+
 
 ## Domain-model
 
