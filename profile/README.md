@@ -54,14 +54,13 @@ classDiagram
         Int contracted_km
         Int monthly_subscription_price
         Boolean has_delivery_insurance
-        get_subscription() List
-        get_subscription_by_id(Int) Dict
-        get_subscription_by_userid(Int) List
-        get_subscription_by_car_id(Int) List
-        get_car_by_subscription_id(subscription_id: Int) Dict
-        update_subscription(updated_subscription: Dict) String
-        delete_subscription(subscription_id: Int) String
-        add_subscription(new_subscription: Dict) String
+        get_subscription() : List
+        get_subscription_by_id(id : Int) : Dict
+        get_active_subscriptions() : Int
+        update_subscription(id : Int, data : Any) : String
+        delete_item_by_id(id : Int) : String
+        add_subscription(data : Any) : String
+        heath_check() : String
     }
 
     class cars {
@@ -73,12 +72,12 @@ classDiagram
         Int purchase_price
         Int km_driven_since_last_end_subscription
         Boolean is_available
-        get_cars() List
-        get_available_cars() List
-        get_car_by_id(car_id: Int) Dict
-        update_car(updated_car: Dict) String
-        delete_car(car_id: Int) String
-        add_car(new_car: Dict) String
+        get_cars() : List
+        get_available_cars() : List
+        get_car_by_id(id: Int) : Dict
+        update_car(id : Int, data : Any) : String
+        delete_car_by_id(id : Int) : String
+        add_car(data : Any) : String
     }
 
     class damage_reports {
@@ -88,24 +87,27 @@ classDiagram
         Date report_date
         String description
         Int damage_type_id
-        get_damage_reports() List
-        get_damage_reports_by_id(id: Int) Dict
-        get_damage_reports_by_subscription_id(id: Int) List
-        get_total_price_of_subscription_damages(subscription_id: Int) Int
-        get_damage_reports_by_car_id(id: Int) List
-        update_damage_report(updated_damage_report: Dict) String
-        delete_damage_report(id: Int) String
-        add_damage_report(new_damage_report: Dict) String
+        get_damage_reports() : List
+        get_damage_reports_by_id(id: Int) : Dict
+        get_damage_reports_by_subscription_id(id: Int) : List
+        get_total_price_of_subscription_damages(id: Int) : Int
+        get_damage_reports_by_carid(id: Int) : List
+        get_the_repair_cost_by_subid(id : Int) : List
+        get_the_repair_cost_by_carid(id : Int) : List
+        update_damage_report(id : Int, updated_fields : Dict) String
+        delete_damage_report(id : Int) String
+        add_new_damage_report(data : Any) String
     }
 
     class damage_types {
         Int damage_type_id
         String damage_type
         String severity
-        get_damage_types() List
-        get_damage_type_by_id(id: Int) Dict
-        update_damage_type(updated_damage_type: Dict) String
-        delete_damage_type(id: Int) String
+        get_all_damage_types() : List
+        find_type_by_id(id : Int) : Dict
+        update_type(id : Int, data : Any) : String
+        delete_type_by_id(id : Int) : String
+        add_new_types(data : Any) : String
     }
 
     subscriptions "1" -- "*" cars
