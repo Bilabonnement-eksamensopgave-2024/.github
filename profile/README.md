@@ -47,6 +47,8 @@ Hent vores Tableau Dashboards fra [bilabonnement.dk](https://github.com/Bilabonn
 
 ## Domain-model
 
+Gennem en domænemodel, har vi fastlagt strukturen og de vigtigste elementer i vores bilabonnementssystem, herunder relationer mellem vores fire klasser: cars, subscriptions, damage reports og damage types
+
 ```mermaid
 classDiagram
     class subscriptions {
